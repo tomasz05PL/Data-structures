@@ -68,5 +68,5 @@ int main() {
 # How to compile
 Compilation example for stack module and main program
 ```
-gcc -o program main.c C\ structures/stack.c
+gcc -o program main.c c_structures/stack.c
 ```
