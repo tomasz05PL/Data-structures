@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdbool.h>
 
-#ifndef DATA_STRUCT_H
-#define DATA_STRUCT_H
+#ifndef STACK_H
+#define STACK_H
 
 typedef struct {
     void* value;
@@ -21,4 +21,5 @@ bool stack_pop(Stack* stack, void* destination);
 bool stack_top(Stack* stack, void* destination);
 bool stack_isEmpty(Stack* stack);
 void free_stack(Stack* stack);
+
 #endif
