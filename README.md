@@ -25,7 +25,7 @@ Secure, generic stack implementation in C programing language.
 
 # Usage Example 
 ```c
-#include "C structures/stack.h"
+#include "c_structures/stack.h"
 #include <stdio.h>
 
 int main() {
